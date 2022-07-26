@@ -1,0 +1,24 @@
+@charset "utf-8";
+@import url(common/reset.css);
+@import url(common/header.css);
+
+@import url(./index_page_container/section1.css);
+@import url(./index_page_container/section2.css);
+@import url(./index_page_container/section3.css);
+
+
+/* tablet */
+@media only screen and (max-width: 95.9em) {
+    html {
+        font-size: 8px;
+    }
+}
+
+
+/* mobile */
+@media only screen and (max-width:76.7em) {
+
+    html {
+        font-size: 5px;
+    }
+}
