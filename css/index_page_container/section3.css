@@ -1,267 +1,510 @@
 @charset "utf-8";
 
 .container .inner-container .sections .section.sec3 {
-    width: 100vw;
-    height: 100vh;
-    background: linear-gradient(180deg, rgb(255, 255, 255), rgb(228, 217, 217));
-    padding: 0 18vw;
-    display: flex;
-    justify-content: center;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 2vh;
-    overflow: auto;
+  width: 100vw;
+  height: 100vh;
+  background: linear-gradient(
+    180deg,
+    var(--color-7),
+    var(--color-6),
+    var(--color-6),
+    var(--color-7)
+  );
+  padding: 0 18vw;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 2vh;
+  overflow: auto;
 }
 
 .container .inner-container .sections .section.sec3 .abouts {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    gap: 3vw;
-    border-radius: 4px;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 3vw;
+  border-radius: 4px;
 }
 
 .container .inner-container .sections .section.sec3 .abouts .about {
-    width: 100%;
-    height: auto;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: column;
-    border-radius: 4px;
-    transition: all 0.8s;
+  width: 100%;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  border-radius: 4px;
+  transition: all 0.4s;
 }
 
 /* about-con1 */
 .container .inner-container .sections .section.sec3 .abouts .about.con1 p {
-    color: var(--color-0);
-    font-size: 2rem;
-    letter-spacing: 0.2rem;
-    text-align: center;
-    text-indent: 3rem;
-    line-height: 3rem;
-    text-shadow: 0 0 1px var(--color-0);
-    margin: 1vh;
-    transition: all 0.8s;
+  color: #fff;
+  font-size: 2rem;
+  letter-spacing: 0.2rem;
+  text-align: center;
+  text-indent: 3rem;
+  line-height: 3rem;
+  text-shadow: 0 0 0.5px var(--color-5);
+  margin: 1vh;
+  transition: all 0.4s;
 }
 
 /* about-con2 */
 
-.container .inner-container .sections .section.sec3 .abouts .about.con2 .inner-con {
-    width: 100%;
-    box-shadow: inset 0 0 6px 0 var(--color-4), 0 0 6px 0 var(--color-4);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 2vh;
-    border-radius: 4px;
+.container
+  .inner-container
+  .sections
+  .section.sec3
+  .abouts
+  .about.con2
+  .inner-con {
+  width: 100%;
+  box-shadow: inset 0 0 3px 0 var(--color-5), 0 0 3px 0 var(--color-5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2vh;
+  border-radius: 4px;
 }
 
-.container .inner-container .sections .section.sec3 .abouts .about.con2 .inner-con .circle-con {
-    width: 35rem;
-    height: 35rem;
+.container
+  .inner-container
+  .sections
+  .section.sec3
+  .abouts
+  .about.con2
+  .inner-con
+  .circle-con {
+  width: 35rem;
+  height: 35rem;
 }
 
-.container .inner-container .sections .section.sec3 .abouts .about.con2 .inner-con .circle-con .sec-con {
-    width: 100%;
-    height: inherit;
-    border-radius: 50%;
-    background: linear-gradient(180deg, rgb(106, 137, 161), rgb(255, 255, 255), rgb(106, 137, 161));
-    box-shadow: inset 0 0 6px 0 var(--color-1), 0 0 6px 0 var(--color-1);
-    position: relative;
-    left: 0;
-    top: 0;
+.container
+  .inner-container
+  .sections
+  .section.sec3
+  .abouts
+  .about.con2
+  .inner-con
+  .circle-con
+  .sec-con {
+  width: 100%;
+  height: inherit;
+  border-radius: 50%;
+  background: linear-gradient(
+    180deg,
+    var(--color-2),
+    rgb(255, 255, 255),
+    var(--color-2)
+  );
+  box-shadow: inset 0 0 3px 0 var(--color-5), 0 0 3px 0 var(--color-5);
+  position: relative;
+  left: 0;
+  top: 0;
 }
 
-.container .inner-container .sections .section.sec3 .abouts .about.con2 .inner-con .circle-con .sec-con .button {
-    position: absolute;
-    background: linear-gradient(180deg, rgb(106, 137, 161), rgb(255, 255, 255), rgb(106, 137, 161));
-    box-shadow: inset 0 0 5px 0 var(--color-1), 0 0 3px 0 var(--color-1);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    border-radius: 50%;
-    color: var(--color-0);
-    font-size: 2.4rem;
-    text-shadow: 0 0 1.2px var(--color-0);
-    z-index: 1;
+.container
+  .inner-container
+  .sections
+  .section.sec3
+  .abouts
+  .about.con2
+  .inner-con
+  .circle-con
+  .sec-con
+  .button {
+  position: absolute;
+  background: linear-gradient(
+    180deg,
+    var(--color-2),
+    var(--color-4),
+    var(--color-2)
+  );
+  box-shadow: inset 0 0 1px 0 var(--color-6), 0 0 1px 0 var(--color-6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+  color: var(--color-0);
+  font-size: 2.4rem;
+  text-shadow: 0 0 0.5px var(--color-5);
+  z-index: 1;
 }
 
-.container .inner-container .sections .section.sec3 .abouts .about.con2 .inner-con .circle-con .sec-con .button span {
-    width: 10rem;
-    height: 10rem;
-    display: block;
-    padding: 2.4rem;
+.container
+  .inner-container
+  .sections
+  .section.sec3
+  .abouts
+  .about.con2
+  .inner-con
+  .circle-con
+  .sec-con
+  .button
+  span {
+  width: 10rem;
+  height: 10rem;
+  display: block;
+  padding: 2.4rem;
 }
 
-.container .inner-container .sections .section.sec3 .abouts .about.con2 .inner-con .circle-con .sec-con .button span.stop {
-    display: none;
+.container
+  .inner-container
+  .sections
+  .section.sec3
+  .abouts
+  .about.con2
+  .inner-con
+  .circle-con
+  .sec-con
+  .button
+  span.stop {
+  display: none;
 }
 
-.container .inner-container .sections .section.sec3 .abouts .about.con2 .inner-con .circle-con .sec-con .button span:hover {
-    transform: scale(1.2);
-    cursor: pointer;
+.container
+  .inner-container
+  .sections
+  .section.sec3
+  .abouts
+  .about.con2
+  .inner-con
+  .circle-con
+  .sec-con
+  .button
+  span:hover {
+  transform: scale(1.2);
+  cursor: pointer;
 }
 
-.container .inner-container .sections .section.sec3 .abouts .about.con2 .inner-con .circle-con .sec-con .button span img {
-    width: 100%;
-    height: auto;
-    display: block;
+.container
+  .inner-container
+  .sections
+  .section.sec3
+  .abouts
+  .about.con2
+  .inner-con
+  .circle-con
+  .sec-con
+  .button
+  span
+  img {
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
-.container .inner-container .sections .section.sec3 .abouts .about.con2 .inner-con .circle-con .sec-con .skill-con {
-    position: absolute;
-    width: 100%;
-    height: 35rem;
+.container
+  .inner-container
+  .sections
+  .section.sec3
+  .abouts
+  .about.con2
+  .inner-con
+  .circle-con
+  .sec-con
+  .skill-con {
+  position: absolute;
+  width: 100%;
+  height: 35rem;
 }
 
-.container .inner-container .sections .section.sec3 .abouts .about.con2 .inner-con .circle-con .sec-con .skill-con>ul {
-    position: absolute;
-    width: 10rem;
-    height: 10rem;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+.container
+  .inner-container
+  .sections
+  .section.sec3
+  .abouts
+  .about.con2
+  .inner-con
+  .circle-con
+  .sec-con
+  .skill-con
+  > ul {
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 
-.container .inner-container .sections .section.sec3 .abouts .about.con2 .inner-con .circle-con .sec-con .skill-con>ul>li {
-    position: absolute;
-    width: 10rem;
-    height: 10rem;
-    animation: cir 30s infinite linear;
-    transform-origin: center;
-    border-radius: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background: linear-gradient(180deg, rgb(106, 137, 161), rgb(255, 255, 255), rgb(106, 137, 161));
-    box-shadow: inset 0 0 5px 0 var(--color-1), 0 0 3px 0 var(--color-1);
-    color: var(--color-0);
-    font-size: 2.4rem;
-    text-shadow: 0 0 1.2px var(--color-0);
+.container
+  .inner-container
+  .sections
+  .section.sec3
+  .abouts
+  .about.con2
+  .inner-con
+  .circle-con
+  .sec-con
+  .skill-con
+  > ul
+  > li {
+  position: absolute;
+  width: 10rem;
+  height: 10rem;
+  animation: cir 30s infinite linear;
+  transform-origin: center;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(
+    180deg,
+    var(--color-2),
+    var(--color-4),
+    var(--color-2)
+  );
+  box-shadow: inset 0 0 1px 0 var(--color-6), 0 0 1px 0 var(--color-6);
+  color: #fff;
+  font-size: 2.4rem;
+  text-shadow: 0 0 0.5px var(--color-5);
 }
 
-.container .inner-container .sections .section.sec3 .abouts .about.con2 .inner-con .circle-con .sec-con .skill-con>ul>li.li2 {
-    animation: cir2 30s infinite linear;
+.container
+  .inner-container
+  .sections
+  .section.sec3
+  .abouts
+  .about.con2
+  .inner-con
+  .circle-con
+  .sec-con
+  .skill-con
+  > ul
+  > li.li2 {
+  animation: cir2 30s infinite linear;
 }
 
-.container .inner-container .sections .section.sec3 .abouts .about.con2 .inner-con .circle-con .sec-con .skill-con>ul>li.li3 {
-    animation: cir3 30s infinite linear;
+.container
+  .inner-container
+  .sections
+  .section.sec3
+  .abouts
+  .about.con2
+  .inner-con
+  .circle-con
+  .sec-con
+  .skill-con
+  > ul
+  > li.li3 {
+  animation: cir3 30s infinite linear;
 }
 
-.container .inner-container .sections .section.sec3 .abouts .about.con2 .inner-con .circle-con .sec-con .skill-con>ul>li.li4 {
-    animation: cir4 30s infinite linear;
+.container
+  .inner-container
+  .sections
+  .section.sec3
+  .abouts
+  .about.con2
+  .inner-con
+  .circle-con
+  .sec-con
+  .skill-con
+  > ul
+  > li.li4 {
+  animation: cir4 30s infinite linear;
 }
 
-.container .inner-container .sections .section.sec3 .abouts .about.con2 .inner-con .circle-con .sec-con .skill-con>ul>li.li5 {
-    animation: cir5 30s infinite linear;
+.container
+  .inner-container
+  .sections
+  .section.sec3
+  .abouts
+  .about.con2
+  .inner-con
+  .circle-con
+  .sec-con
+  .skill-con
+  > ul
+  > li.li5 {
+  animation: cir5 30s infinite linear;
 }
 
-.container .inner-container .sections .section.sec3 .abouts .about.con2 .inner-con .circle-con .sec-con .skill-con>ul>li.li6 {
-    animation: cir6 30s infinite linear;
+.container
+  .inner-container
+  .sections
+  .section.sec3
+  .abouts
+  .about.con2
+  .inner-con
+  .circle-con
+  .sec-con
+  .skill-con
+  > ul
+  > li.li6 {
+  animation: cir6 30s infinite linear;
 }
 
-.container .inner-container .sections .section.sec3 .abouts .about.con2 .inner-con .circle-con .sec-con .skill-con>ul>li.pause0 {
-    animation: cir 1000s infinite linear;
+.container
+  .inner-container
+  .sections
+  .section.sec3
+  .abouts
+  .about.con2
+  .inner-con
+  .circle-con
+  .sec-con
+  .skill-con
+  > ul
+  > li.pause0 {
+  animation: cir 1000s infinite linear;
 }
 
-.container .inner-container .sections .section.sec3 .abouts .about.con2 .inner-con .circle-con .sec-con .skill-con>ul>li.pause1 {
-    animation: cir2 1000s infinite linear;
+.container
+  .inner-container
+  .sections
+  .section.sec3
+  .abouts
+  .about.con2
+  .inner-con
+  .circle-con
+  .sec-con
+  .skill-con
+  > ul
+  > li.pause1 {
+  animation: cir2 1000s infinite linear;
 }
 
-.container .inner-container .sections .section.sec3 .abouts .about.con2 .inner-con .circle-con .sec-con .skill-con>ul>li.pause2 {
-    animation: cir3 1000s infinite linear;
+.container
+  .inner-container
+  .sections
+  .section.sec3
+  .abouts
+  .about.con2
+  .inner-con
+  .circle-con
+  .sec-con
+  .skill-con
+  > ul
+  > li.pause2 {
+  animation: cir3 1000s infinite linear;
 }
 
-.container .inner-container .sections .section.sec3 .abouts .about.con2 .inner-con .circle-con .sec-con .skill-con>ul>li.pause3 {
-    animation: cir4 1000s infinite linear;
+.container
+  .inner-container
+  .sections
+  .section.sec3
+  .abouts
+  .about.con2
+  .inner-con
+  .circle-con
+  .sec-con
+  .skill-con
+  > ul
+  > li.pause3 {
+  animation: cir4 1000s infinite linear;
 }
 
-.container .inner-container .sections .section.sec3 .abouts .about.con2 .inner-con .circle-con .sec-con .skill-con>ul>li.pause4 {
-    animation: cir5 1000s infinite linear;
+.container
+  .inner-container
+  .sections
+  .section.sec3
+  .abouts
+  .about.con2
+  .inner-con
+  .circle-con
+  .sec-con
+  .skill-con
+  > ul
+  > li.pause4 {
+  animation: cir5 1000s infinite linear;
 }
 
-.container .inner-container .sections .section.sec3 .abouts .about.con2 .inner-con .circle-con .sec-con .skill-con>ul>li.pause5 {
-    animation: cir6 1000s infinite linear;
+.container
+  .inner-container
+  .sections
+  .section.sec3
+  .abouts
+  .about.con2
+  .inner-con
+  .circle-con
+  .sec-con
+  .skill-con
+  > ul
+  > li.pause5 {
+  animation: cir6 1000s infinite linear;
 }
 
 @keyframes cir {
-    0% {
-        transform: rotate(0deg) translate(100%);
-    }
+  0% {
+    transform: rotate(0deg) translate(100%);
+  }
 
-    100% {
-        transform: rotate(360deg) translate(100%);
-    }
+  100% {
+    transform: rotate(360deg) translate(100%);
+  }
 }
 
 @keyframes cir2 {
-    0% {
-        transform: rotate(60deg) translate(100%);
-    }
+  0% {
+    transform: rotate(60deg) translate(100%);
+  }
 
-    100% {
-        transform: rotate(420deg) translate(100%);
-    }
+  100% {
+    transform: rotate(420deg) translate(100%);
+  }
 }
 
 @keyframes cir3 {
-    0% {
-        transform: rotate(120deg) translate(100%);
-    }
+  0% {
+    transform: rotate(120deg) translate(100%);
+  }
 
-    100% {
-        transform: rotate(480deg) translate(100%);
-    }
+  100% {
+    transform: rotate(480deg) translate(100%);
+  }
 }
 
 @keyframes cir4 {
-    0% {
-        transform: rotate(180deg) translate(100%);
-    }
+  0% {
+    transform: rotate(180deg) translate(100%);
+  }
 
-    100% {
-        transform: rotate(540deg) translate(100%);
-    }
+  100% {
+    transform: rotate(540deg) translate(100%);
+  }
 }
 
 @keyframes cir5 {
-    0% {
-        transform: rotate(240deg) translate(100%);
-    }
+  0% {
+    transform: rotate(240deg) translate(100%);
+  }
 
-    100% {
-        transform: rotate(600deg) translate(100%);
-    }
+  100% {
+    transform: rotate(600deg) translate(100%);
+  }
 }
 
 @keyframes cir6 {
-    0% {
-        transform: rotate(300deg) translate(100%);
-    }
+  0% {
+    transform: rotate(300deg) translate(100%);
+  }
 
-    100% {
-        transform: rotate(660deg) translate(100%);
-    }
+  100% {
+    transform: rotate(660deg) translate(100%);
+  }
 }
 
 /* --------------------------------- */
 
 /* tablet */
 @media only screen and (max-width: 959px) {
-
-    .container .inner-container .sections .section.sec3 .abouts {
-        flex-direction: column-reverse;
-    }
+  .container .inner-container .sections .section.sec3 .abouts {
+    flex-direction: column-reverse;
+  }
 }
 
 /* mobile */
-@media only screen and (max-width:767px) {}
+@media only screen and (max-width: 767px) {
+}
