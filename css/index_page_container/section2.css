@@ -181,4 +181,7 @@
 
 /* mobile */
 @media only screen and (max-width: 767px) {
+  .folio-con2 {
+    display: none;
+  }
 }
