@@ -99,11 +99,11 @@
 
 /* .sub-header */
 .sub-header {
-  width: 30em;
+  width: 28em;
   height: 100vh;
   position: fixed;
   z-index: 9;
-  left: -30em;
+  left: -28em;
   top: 0;
   display: flex;
   justify-content: center;
@@ -140,13 +140,13 @@
   justify-content: space-between;
   flex-direction: column;
   align-items: flex-start;
-  gap: 3em;
+  gap: 6em;
   transition: all 0.4s;
 }
 
 .sub-header .nav .gnb ul > li {
   color: var(--color-5);
-  font-size: 2em;
+  font-size: 2.4em;
   cursor: pointer;
   transition: all 0.4s;
 }
