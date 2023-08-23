@@ -6,19 +6,16 @@
 @import url(./index_page_container/section2.css);
 @import url(./index_page_container/section3.css);
 
-
 /* tablet */
-@media only screen and (max-width: 95.9em) {
-    html {
-        font-size: 8px;
-    }
+@media only screen and (max-width: 991px) {
+  html {
+    font-size: 8px;
+  }
 }
 
-
 /* mobile */
-@media only screen and (max-width:76.7em) {
-
-    html {
-        font-size: 5px;
-    }
+@media only screen and (max-width: 767px) {
+  html {
+    font-size: 7px;
+  }
 }

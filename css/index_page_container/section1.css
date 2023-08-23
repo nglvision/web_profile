@@ -1,45 +1,31 @@
 @charset "utf-8";
-
 #wrap {
   width: 100%;
-  height: auto;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
 }
 
-.container {
+.sections {
   width: 100%;
-  height: auto;
-}
-
-.container .inner-container {
-  width: 100%;
-  height: auto;
-}
-
-.container .inner-container .sections {
-  width: 100%;
-  height: auto;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   overflow: hidden;
 }
 
-.container .inner-container .sections .section {
+.sections .section {
   width: 100%;
   height: 100vh;
 }
 
-.container .inner-container .sections .section.sec1 {
+.section.sec1 {
   width: 100%;
   height: 100vh;
   position: relative;
   overflow: hidden;
 }
-
-.container .inner-container .sections .section.sec1 .slide-con {
+.section.sec1 .slide-con {
   width: 100%;
   height: 100vh;
   position: absolute;
@@ -48,14 +34,14 @@
   transition: all 0.4s;
 }
 
-.container .inner-container .sections .section.sec1 .slide-con > ul {
+.section.sec1 .slide-con > ul {
   height: 200vh;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
 }
 
-.container .inner-container .sections .section.sec1 .slide-con > ul > li {
+.section.sec1 .slide-con > ul > li {
   width: 100%;
   height: 100vh;
   display: flex;
@@ -72,7 +58,7 @@
   background-attachment: fixed;
 }
 
-.container .inner-container .sections .section.sec1 .slide-con > ul > li.li2 {
+.section.sec1 .slide-con > ul > li.li2 {
   background: linear-gradient(
     180deg,
     var(--color-7),
@@ -91,16 +77,16 @@
   > li
   h2.title {
   color: var(--color-2);
-  font-size: 4rem;
+  font-size: 4em;
   text-transform: uppercase;
   color: rgb(255, 255, 255);
-  letter-spacing: 1rem;
+  letter-spacing: 0.1em;
   position: absolute;
   z-index: 8;
   transition: all 0.4s;
 }
 
-.container .inner-container .sections .section.sec1 .bcon {
+.section.sec1 .bcon {
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -111,55 +97,39 @@
   top: 0;
 }
 
-.container .inner-container .sections .section.sec1 .bcon .items {
-  width: 4rem;
-  height: auto;
+.section.sec1 .bcon .items {
+  width: 4em;
 }
 
-.container .inner-container .sections .section.sec1 .bcon .items > ul {
+.section.sec1 .bcon .items > ul {
   display: flex;
   justify-content: space-between;
   flex-direction: column;
   align-items: center;
-  gap: 2rem;
+  gap: 2em;
 }
-
-.container .inner-container .sections .section.sec1 .bcon .items > ul > li {
-  width: 2rem;
-  height: 2rem;
+.section.sec1 .bcon .items > ul > li {
+  width: 2em;
+  height: 2em;
   border-radius: 50%;
   background: linear-gradient(90deg, var(--color-3), rgb(255, 255, 255));
   transition: all 0.4s;
   box-shadow: inset 0 0 2px 0 var(--color-4), 0 0 2px 0 var(--color-4);
 }
 
-.container
-  .inner-container
-  .sections
-  .section.sec1
-  .bcon
-  .items
-  > ul
-  > li:hover {
+.section.sec1 .bcon .items > ul > li:hover {
   transform: scale(1.2);
   cursor: pointer;
 }
-
-.container .inner-container .sections .section.sec1 .bcon .items > ul > li.on {
+.section.sec1 .bcon .items > ul > li.on {
   box-shadow: 0 0 5px 2px rgb(255, 255, 255);
 }
 
 /* li>pure-con */
-.container
-  .inner-container
-  .sections
-  .section.sec1
-  .slide-con
-  > ul
-  > li
-  .pure-con {
+
+.pure-con {
   width: 100%;
-  height: 60rem;
+  height: 60em;
   left: 0;
   top: 0;
   display: flex;
@@ -168,17 +138,9 @@
   position: relative;
 }
 
-.container
-  .inner-container
-  .sections
-  .section.sec1
-  .slide-con
-  > ul
-  > li
-  .pure-con
-  .wave1 {
-  width: 46rem;
-  height: 38rem;
+.pure-con .wave1 {
+  width: 46em;
+  height: 38em;
   position: absolute;
   border-radius: 60%;
   background-color: var(--color-6);
@@ -188,17 +150,9 @@
   z-index: 5;
 }
 
-.container
-  .inner-container
-  .sections
-  .section.sec1
-  .slide-con
-  > ul
-  > li
-  .pure-con
-  .wave2 {
-  width: 38rem;
-  height: 36rem;
+.pure-con .wave2 {
+  width: 38em;
+  height: 36em;
   position: absolute;
   border-radius: 40%;
   background-color: var(--color-6);
@@ -217,17 +171,9 @@
   }
 }
 
-.container
-  .inner-container
-  .sections
-  .section.sec1
-  .slide-con
-  > ul
-  > li
-  .pure-con
-  .stick {
-  width: 34rem;
-  height: 34rem;
+.pure-con .stick {
+  width: 34em;
+  height: 34em;
   background-color: var(--color-3);
   position: absolute;
   bottom: 0;
@@ -238,95 +184,51 @@
 
 /* .cube */
 
-.container
-  .inner-container
-  .sections
-  .section.sec1
-  .slide-con
-  > ul
-  > li.li2
-  span.cube {
+span.cube {
   display: inline-block;
   position: relative;
 }
 
-.container
-  .inner-container
-  .sections
-  .section.sec1
-  .slide-con
-  > ul
-  > li.li2
-  span.cube::before,
+span.cube::before,
 span.cube::after {
   content: "";
-  width: 24rem;
-  height: 24rem;
+  width: 24em;
+  height: 24em;
   border: 5px solid var(--color-2);
   position: absolute;
-  left: 40%;
-  top: -100%;
+  left: 30%;
+  top: -80%;
   z-index: 1;
   transition: all 0.4s ease 0s;
 }
 
-.container
-  .inner-container
-  .sections
-  .section.sec1
-  .slide-con
-  > ul
-  > li.li2
-  span.cube::before {
+li.li2 span.cube::before {
   animation: rotate 20s infinite linear;
 }
 
-.container
-  .inner-container
-  .sections
-  .section.sec1
-  .slide-con
-  > ul
-  > li.li2
-  span.cube::after {
+li.li2 span.cube::after {
   animation: rotate 25s infinite linear;
   box-shadow: 0 0 2px 0 var(--color-0);
 }
 
-.container
-  .inner-container
-  .sections
-  .section.sec1
-  .slide-con
-  > ul
-  > li.li2
-  span.cube
-  span.title {
+li.li2 span.cube span.title {
   position: relative;
-  height: 8rem;
+  height: 5em;
   display: flex;
   justify-content: center;
   align-items: center;
-  padding: 0 4rem;
-  font-size: 2.4rem;
+  padding: 0 2em;
+  font-size: 2em;
   text-transform: uppercase;
   color: var(--color-1);
-  letter-spacing: 0.6rem;
+  letter-spacing: 0.2em;
   transition: all 0.4s ease 0s;
   top: 0;
   overflow: hidden;
   box-shadow: inset 0 0 5px 3px var(--color-5), 0 0 4px 0 var(--color-5);
 }
 
-.container
-  .inner-container
-  .sections
-  .section.sec1
-  .slide-con
-  > ul
-  > li.li2
-  span.cube
-  span.title::before,
+li.li2 span.cube span.title::before,
 span.title::after {
   content: "";
   position: absolute;
@@ -340,42 +242,16 @@ span.title::after {
   );
   transition: all 0.4s ease 0s;
 }
-
-.container
-  .inner-container
-  .sections
-  .section.sec1
-  .slide-con
-  > ul
-  > li.li2
-  span.cube
-  span.title::before {
+li.li2 span.cube span.title::before {
   left: 0;
   z-index: 2;
 }
 
-.container
-  .inner-container
-  .sections
-  .section.sec1
-  .slide-con
-  > ul
-  > li.li2
-  span.cube
-  span.title::after {
+li.li2 span.cube span.title::after {
   right: 0;
 }
 
-.container
-  .inner-container
-  .sections
-  .section.sec1
-  .slide-con
-  > ul
-  > li.li2
-  span.cube
-  span.title
-  span {
+li.li2 span.cube span.title span {
   position: relative;
   z-index: 2;
 }
@@ -393,7 +269,7 @@ span.title::after {
 /* --------------------------------- */
 
 /* tablet */
-@media only screen and (max-width: 959px) {
+@media only screen and (max-width: 991px) {
 }
 
 /* mobile */

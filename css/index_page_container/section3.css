@@ -1,6 +1,6 @@
 @charset "utf-8";
 
-.container .inner-container .sections .section.sec3 {
+.section.sec3 {
   width: 100vw;
   height: 100vh;
   background: linear-gradient(
@@ -19,34 +19,33 @@
   overflow: auto;
 }
 
-.container .inner-container .sections .section.sec3 .abouts {
+.section.sec3 .abouts {
   width: 100%;
   height: auto;
   display: flex;
   justify-content: space-between;
   align-items: center;
   gap: 3vw;
-  border-radius: 4px;
+  border-radius: 0.4em;
 }
 
-.container .inner-container .sections .section.sec3 .abouts .about {
+.section.sec3 .abouts .about {
   width: 100%;
-  height: auto;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
-  border-radius: 4px;
+  border-radius: 0.4em;
   transition: all 0.4s;
 }
 
 /* about-con1 */
-.container .inner-container .sections .section.sec3 .abouts .about.con1 p {
+.about.con1 p {
   color: #fff;
-  font-size: 2rem;
-  letter-spacing: 0.2rem;
+  font-size: 2em;
+  letter-spacing: 0.2em;
   text-align: center;
-  text-indent: 3rem;
-  line-height: 3rem;
+  text-indent: 3em;
+  line-height: 1.4em;
   text-shadow: 0 0 0.5px var(--color-5);
   margin: 1vh;
   transition: all 0.4s;
@@ -54,68 +53,33 @@
 
 /* about-con2 */
 
-.container
-  .inner-container
-  .sections
-  .section.sec3
-  .abouts
-  .about.con2
-  .inner-con {
+.about.con2 .inner-con {
   width: 100%;
   box-shadow: inset 0 0 3px 0 var(--color-5), 0 0 3px 0 var(--color-5);
   display: flex;
   justify-content: center;
   align-items: center;
   padding: 2vh;
-  border-radius: 4px;
+  border-radius: 0.4em;
 }
 
-.container
-  .inner-container
-  .sections
-  .section.sec3
-  .abouts
-  .about.con2
-  .inner-con
-  .circle-con {
-  width: 35rem;
-  height: 35rem;
+.circle-con {
+  width: 35em;
+  height: 35em;
 }
 
-.container
-  .inner-container
-  .sections
-  .section.sec3
-  .abouts
-  .about.con2
-  .inner-con
-  .circle-con
-  .sec-con {
+.circle-con .sec-con {
   width: 100%;
   height: inherit;
   border-radius: 50%;
-  background: linear-gradient(
-    180deg,
-    var(--color-2),
-    rgb(255, 255, 255),
-    var(--color-2)
-  );
+  background: linear-gradient(180deg, var(--color-2), #ffffff, var(--color-2));
   box-shadow: inset 0 0 3px 0 var(--color-5), 0 0 3px 0 var(--color-5);
   position: relative;
   left: 0;
   top: 0;
 }
 
-.container
-  .inner-container
-  .sections
-  .section.sec3
-  .abouts
-  .about.con2
-  .inner-con
-  .circle-con
-  .sec-con
-  .button {
+.circle-con .sec-con .button {
   position: absolute;
   background: linear-gradient(
     180deg,
@@ -133,103 +97,41 @@
   transform: translate(-50%, -50%);
   border-radius: 50%;
   color: var(--color-0);
-  font-size: 2.4rem;
   text-shadow: 0 0 0.5px var(--color-5);
   z-index: 1;
 }
 
-.container
-  .inner-container
-  .sections
-  .section.sec3
-  .abouts
-  .about.con2
-  .inner-con
-  .circle-con
-  .sec-con
-  .button
-  span {
-  width: 10rem;
-  height: 10rem;
+.circle-con .sec-con .button span {
+  width: 10em;
+  height: 10em;
   display: block;
-  padding: 2.4rem;
+  padding: 2em;
 }
 
-.container
-  .inner-container
-  .sections
-  .section.sec3
-  .abouts
-  .about.con2
-  .inner-con
-  .circle-con
-  .sec-con
-  .button
-  span.stop {
+.circle-con .sec-con .button span.stop {
   display: none;
 }
 
-.container
-  .inner-container
-  .sections
-  .section.sec3
-  .abouts
-  .about.con2
-  .inner-con
-  .circle-con
-  .sec-con
-  .button
-  span:hover {
+.circle-con .sec-con .button span:hover {
   transform: scale(1.2);
   cursor: pointer;
 }
 
-.container
-  .inner-container
-  .sections
-  .section.sec3
-  .abouts
-  .about.con2
-  .inner-con
-  .circle-con
-  .sec-con
-  .button
-  span
-  img {
+.circle-con .sec-con .button span img {
   width: 100%;
-  height: auto;
   display: block;
 }
 
-.container
-  .inner-container
-  .sections
-  .section.sec3
-  .abouts
-  .about.con2
-  .inner-con
-  .circle-con
-  .sec-con
-  .skill-con {
+.skill-con {
   position: absolute;
   width: 100%;
-  height: 35rem;
+  height: 35em;
 }
 
-.container
-  .inner-container
-  .sections
-  .section.sec3
-  .abouts
-  .about.con2
-  .inner-con
-  .circle-con
-  .sec-con
-  .skill-con
-  > ul {
+.skill-con > ul {
   position: absolute;
-  width: 10rem;
-  height: 10rem;
+  width: 10em;
+  height: 10em;
   left: 50%;
   top: 50%;
   transform: translate(-50%, -50%);
@@ -237,22 +139,10 @@
   justify-content: space-between;
   align-items: center;
 }
-
-.container
-  .inner-container
-  .sections
-  .section.sec3
-  .abouts
-  .about.con2
-  .inner-con
-  .circle-con
-  .sec-con
-  .skill-con
-  > ul
-  > li {
+.skill-con > ul > li {
   position: absolute;
-  width: 10rem;
-  height: 10rem;
+  width: 5em;
+  height: 5em;
   animation: cir 30s infinite linear;
   transform-origin: center;
   border-radius: 50%;
@@ -267,172 +157,51 @@
   );
   box-shadow: inset 0 0 1px 0 var(--color-6), 0 0 1px 0 var(--color-6);
   color: #fff;
-  font-size: 2.4rem;
+  font-size: 2em;
   text-shadow: 0 0 0.5px var(--color-5);
 }
 
-.container
-  .inner-container
-  .sections
-  .section.sec3
-  .abouts
-  .about.con2
-  .inner-con
-  .circle-con
-  .sec-con
-  .skill-con
-  > ul
-  > li.li2 {
+.skill-con > ul > li.li2 {
   animation: cir2 30s infinite linear;
 }
 
-.container
-  .inner-container
-  .sections
-  .section.sec3
-  .abouts
-  .about.con2
-  .inner-con
-  .circle-con
-  .sec-con
-  .skill-con
-  > ul
-  > li.li3 {
+.skill-con > ul > li.li3 {
   animation: cir3 30s infinite linear;
 }
 
-.container
-  .inner-container
-  .sections
-  .section.sec3
-  .abouts
-  .about.con2
-  .inner-con
-  .circle-con
-  .sec-con
-  .skill-con
-  > ul
-  > li.li4 {
+.skill-con > ul > li.li4 {
   animation: cir4 30s infinite linear;
 }
 
-.container
-  .inner-container
-  .sections
-  .section.sec3
-  .abouts
-  .about.con2
-  .inner-con
-  .circle-con
-  .sec-con
-  .skill-con
-  > ul
-  > li.li5 {
+.skill-con > ul > li.li5 {
   animation: cir5 30s infinite linear;
 }
 
-.container
-  .inner-container
-  .sections
-  .section.sec3
-  .abouts
-  .about.con2
-  .inner-con
-  .circle-con
-  .sec-con
-  .skill-con
-  > ul
-  > li.li6 {
+.skill-con > ul > li.li6 {
   animation: cir6 30s infinite linear;
 }
 
-.container
-  .inner-container
-  .sections
-  .section.sec3
-  .abouts
-  .about.con2
-  .inner-con
-  .circle-con
-  .sec-con
-  .skill-con
-  > ul
-  > li.pause0 {
+.skill-con > ul > li.pause0 {
   animation: cir 1000s infinite linear;
 }
 
-.container
-  .inner-container
-  .sections
-  .section.sec3
-  .abouts
-  .about.con2
-  .inner-con
-  .circle-con
-  .sec-con
-  .skill-con
-  > ul
-  > li.pause1 {
+.skill-con > ul > li.pause1 {
   animation: cir2 1000s infinite linear;
 }
 
-.container
-  .inner-container
-  .sections
-  .section.sec3
-  .abouts
-  .about.con2
-  .inner-con
-  .circle-con
-  .sec-con
-  .skill-con
-  > ul
-  > li.pause2 {
+.skill-con > ul > li.pause2 {
   animation: cir3 1000s infinite linear;
 }
 
-.container
-  .inner-container
-  .sections
-  .section.sec3
-  .abouts
-  .about.con2
-  .inner-con
-  .circle-con
-  .sec-con
-  .skill-con
-  > ul
-  > li.pause3 {
+.skill-con > ul > li.pause3 {
   animation: cir4 1000s infinite linear;
 }
 
-.container
-  .inner-container
-  .sections
-  .section.sec3
-  .abouts
-  .about.con2
-  .inner-con
-  .circle-con
-  .sec-con
-  .skill-con
-  > ul
-  > li.pause4 {
+.skill-con > ul > li.pause4 {
   animation: cir5 1000s infinite linear;
 }
 
-.container
-  .inner-container
-  .sections
-  .section.sec3
-  .abouts
-  .about.con2
-  .inner-con
-  .circle-con
-  .sec-con
-  .skill-con
-  > ul
-  > li.pause5 {
+.skill-con > ul > li.pause5 {
   animation: cir6 1000s infinite linear;
 }
 
@@ -499,8 +268,8 @@
 /* --------------------------------- */
 
 /* tablet */
-@media only screen and (max-width: 959px) {
-  .container .inner-container .sections .section.sec3 .abouts {
+@media only screen and (max-width: 991px) {
+  .section.sec3 .abouts {
     flex-direction: column-reverse;
   }
 }
