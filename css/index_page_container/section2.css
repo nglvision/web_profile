@@ -149,7 +149,7 @@
   padding: 1em;
   font-size: 2em;
   color: var(--color-4);
-  text-shadow: 0 0 0.5px var(--color-6);
+  text-shadow: 0 0 1px var(--color-0);
   text-transform: uppercase;
   background: linear-gradient(
     90deg,
