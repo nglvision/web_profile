@@ -78,12 +78,14 @@
   h2.title {
   color: var(--color-2);
   font-size: 4em;
+  font-weight: 500;
   text-transform: uppercase;
   color: rgb(255, 255, 255);
   letter-spacing: 0.1em;
   position: absolute;
   z-index: 8;
   transition: all 0.4s;
+  text-shadow: 0 0 1px var(--color-5);
 }
 
 .section.sec1 .bcon {
