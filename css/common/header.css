@@ -99,11 +99,11 @@
 
 /* .sub-header */
 .sub-header {
-  width: 35em;
+  width: 30em;
   height: 100vh;
   position: fixed;
   z-index: 9;
-  left: -35em;
+  left: -30em;
   top: 0;
   display: flex;
   justify-content: center;
