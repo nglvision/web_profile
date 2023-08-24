@@ -45,7 +45,7 @@
   align-items: center;
 }
 .about.con1 p {
-  color: #fff;
+  color: #ffffff;
   font-size: 1.8em;
   letter-spacing: 0.15em;
   text-align: center;
@@ -55,7 +55,7 @@
   margin: 1vh;
 }
 .about.con1 .copyright {
-  font-size: 0.5em;
+  font-size: 1em;
   color: #fff;
   text-shadow: 0 0 0.5px var(--color-5);
 }
@@ -73,8 +73,8 @@
 }
 
 .circle-con {
-  width: 33em;
-  height: 33em;
+  width: 32em;
+  height: 32em;
 }
 
 .circle-con .sec-con {
@@ -140,7 +140,7 @@
 .skill-con {
   position: absolute;
   width: 100%;
-  height: 33em;
+  height: 32em;
 }
 .skill-con > ul {
   position: absolute;
@@ -170,7 +170,7 @@
     var(--color-2)
   );
   box-shadow: inset 0 0 1px 0 var(--color-6), 0 0 1px 0 var(--color-6);
-  color: #fff;
+  color: #ffffff;
   font-size: 2em;
   text-shadow: 0 0 0.5px var(--color-5);
 }
