@@ -73,8 +73,8 @@
 }
 
 .circle-con {
-  width: 32em;
-  height: 32em;
+  width: 30.5em;
+  height: 30.5em;
 }
 
 .circle-con .sec-con {
@@ -140,7 +140,7 @@
 .skill-con {
   position: absolute;
   width: 100%;
-  height: 32em;
+  height: 30.5em;
 }
 .skill-con > ul {
   position: absolute;
